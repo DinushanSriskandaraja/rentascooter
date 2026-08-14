@@ -125,6 +125,15 @@ export const siteConfig = {
       "Hi, I need the {vehicle} ({category}) for rental. Price: ${price}/day. Please let me know about availability.",
   },
 
+  contact: {
+    email: "hello@rentascooter.lk",
+    phone: "+94 77 222 0499",
+    socials: {
+      instagram: "https://instagram.com",
+      facebook: "https://facebook.com",
+    }
+  },
+
   navigation: [
     { label: "Vehicles", href: "#vehicles" },
     { label: "Delivery", href: "#delivery" },

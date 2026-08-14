@@ -6,6 +6,7 @@ import { WhyUs } from '@/components/WhyUs';
 import { DeliverySection } from '@/components/DeliverySection';
 import { HowItWorks } from '@/components/HowItWorks';
 import { TravelSection } from '@/components/TravelSection';
+import { Terms } from '@/components/Terms';
 import { FAQ } from '@/components/FAQ';
 import { FinalCTA } from '@/components/FinalCTA';
 import { Footer } from '@/components/Footer';
@@ -22,6 +23,7 @@ export default function Home() {
         <DeliverySection />
         <HowItWorks />
         <TravelSection />
+        <Terms />
         <FAQ />
         <FinalCTA />
       </main>
