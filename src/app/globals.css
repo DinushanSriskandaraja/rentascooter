@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #F59E0B;
+  --color-primary-dark: #D97706;
+  --color-background-main: #0B0F0E;
+  --color-background-secondary: #111816;
+  --color-surface: #17201D;
+  --color-text-main: #FFFFFF;
+  --color-text-muted: #A7B0AC;
+  --color-border-main: #26312D;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: var(--color-background-main);
+  --foreground: var(--color-text-main);
+}
+
+body {
+  background: var(--color-background-main);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility to apply the heading font */
+.font-heading {
+  font-family: var(--font-heading);
+}
