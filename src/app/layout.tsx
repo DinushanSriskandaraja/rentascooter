@@ -16,6 +16,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rentascooter.lk"),
   title: "Rent a Scooter & Motorbike in Sri Lanka | Explore the Island",
   description: "Rent top-quality scooters and motorbikes in Sri Lanka. Enjoy island-wide delivery, Colombo airport pickup, and affordable daily rates starting at $8/day. Explore Sri Lanka on your own terms.",
   keywords: [
